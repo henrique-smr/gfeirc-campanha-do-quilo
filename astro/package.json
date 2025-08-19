@@ -1,0 +1,35 @@
+{
+	"name": "astro",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "astro dev",
+		"build": "astro build",
+		"preview": "astro preview",
+		"astro": "astro"
+	},
+	"dependencies": {
+		"@astrojs/react": "^4.3.0",
+		"@nanostores/react": "^1.0.0",
+		"@tailwindcss/vite": "^4.1.12",
+		"@types/react": "^19.1.10",
+		"@types/react-dom": "^19.1.7",
+		"astro": "^5.13.0",
+		"firebase": "^12.1.0",
+		"nanostores": "^1.0.1",
+		"qrcode.react": "^4.2.0",
+		"react": "^19.1.1",
+		"react-dom": "^19.1.1",
+		"tailwindcss": "^4.1.12",
+		"yaml": "^2.8.1"
+	},
+	"devDependencies": {
+		"@iconify-json/streamline-kameleon-color": "^1.2.2",
+		"@iconify/react": "^6.0.0",
+		"@tailwindcss/typography": "^0.5.16",
+		"astro-icon": "^1.1.5",
+		"daisyui": "^5.0.50",
+		"firebase-admin": "^13.4.0",
+		"tsx": "^4.20.4"
+	}
+}

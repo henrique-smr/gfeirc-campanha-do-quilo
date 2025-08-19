@@ -1,0 +1,45 @@
+{
+	"rules": {
+		".read": false,
+		".write": false,
+		"list": {
+			".read": true
+		},
+		"donations": {
+			".read": false,
+			".write": false,
+			"$donationId": {
+				".write": "auth != null",
+				".validate": "newData.exists() && !data.exists()",
+				"uid": {
+					".validate": "newData.isString() && newData.val().length > 0 || newData.val() === null"
+				},
+				"items": {
+					"$itemIndex": {
+						"id": {
+							".validate": "newData.isString() && newData.val().length > 0"
+						},
+						"name": {
+							".validate": "newData.isString() && newData.val().length > 0"
+						},
+						"quantity": {
+							".validate": "newData.isNumber() && newData.val() > 0"
+						},
+						"price": {
+							".validate": "newData.isNumber() && newData.val() >= 0"
+						}
+					}
+				},
+				"total": {
+					".validate": "newData.isNumber() && newData.val() > 0"
+				},
+				"timestamp": {
+					".validate": "newData.isNumber() && newData.val() > 0"
+				},
+				"$other": {
+					".validate": false
+				}
+			}
+		}
+	}
+}

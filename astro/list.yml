@@ -1,0 +1,48 @@
+# Gifts
+- name: Cesta básica
+  description: Cesta básica com Arroz, Feijão, Extrato de Tomate, Fubá, Macarrão, Açúcar e óleo
+  price: 80.00
+  img: /cesta-basica.png
+  id: cesta-basica
+
+- name: Feijão
+  description: 1 Kg
+  price: 7.00
+  img: /feijao.png
+  id: feijao
+
+- name: Fubá
+  description: 1 Kg
+  price: 4.00
+  img: /fuba.png
+  id: fuba
+
+- name: Arroz
+  description: 1 Kg
+  price: 7.00
+  img: /arroz.png
+  id: arroz
+
+- name: Macarrão
+  description: 1 Kg
+  price: 7.00
+  img: /macarrao.png
+  id: macarrao
+
+- name: Óleo de Soja
+  description: 900 ml
+  price: 6.00
+  img: /oleo-de-soja.png
+  id: oleo-de-soja
+
+- name: Açúcar
+  description: 1 # https://kubernetes.io/docs/concepts/services-networking/ingress/
+  price: 4.00
+  img: /acucar.png
+  id: acucar
+
+- name: Extrato de Tomate
+  description: 300 g
+  price: 10.00
+  img: /extrato-de-tomate.webp
+  id: extrato-de-tomate
